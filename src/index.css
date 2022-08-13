@@ -17,3 +17,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media all and (max-width: 800px) {
+  .logo-container {
+    display: none;
+  }
+
+
+}
