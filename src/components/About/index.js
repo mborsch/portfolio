@@ -31,9 +31,20 @@ const About = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p>yoyoy</p>
-          <p>yoyoy</p>
-          <p>yoyoyoy</p>
+          <p>
+            Ambitious and efficient software engineer with over a year in
+            object-oriented programming. Dedicated to building and optimizing
+            user-focused websites and applications.
+          </p>
+          <p>
+            I'm consistently looking to improve my skills, and am adept at
+            finding a path through a problem. I'm confident of being able to
+            handle any challenge, and seek solutions with a fighter's spirit.
+          </p>
+          <p>
+            If I'm not writing code or learning about programming, I'm likely
+            exploring with my prescious pup.
+          </p>
         </div>
 
         <div className="stage-cube-cont">
