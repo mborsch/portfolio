@@ -63,8 +63,14 @@
         text-decoration: none;
         padding: 8px 10px;
         border: 1px solid #008080;
-        float: right;
+        justify-content: center;
         border-radius: 4px;
+
+        &:hover {
+            background-color: #38393a;
+           
+
+        }
 
     }
 }
@@ -110,4 +116,36 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
     margin-right: 20px;
+}
+
+@media all and (min-width: 450px) and (max-width: 950px) {
+.container {
+   
+
+    .info-map{
+        display: none;
+        
+    }
+
+    .text-zone {
+            position: relative;
+                width: 45%;
+                left: 30%;
+                
+                bottom: 10%;
+                display: block;
+                justify-content: center;
+    }
+
+    .map-wrap{
+        position: relative;
+       display: none;
+        width: 45%;
+        justify-content: center;
+        right: 25%;
+        height: 30%;
+        top: 20%;
+        margin-right: 0%;
+    }
+}
 }
