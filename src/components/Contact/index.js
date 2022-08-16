@@ -51,8 +51,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in full-time careers, freelance opportunities, and
-            short and long term contracts. I am extremely ambitious and look
-            forward to hearing from you.
+            short and long term contracts. I look forward to hearing from you.
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -98,12 +97,12 @@ const Contact = () => {
           <span>matthewmborschnack@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[41.8976, -87.6937]} zoom={15}>
+          <MapContainer center={[41.87, -87.649]} zoom={15}>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[41.8976, -87.6937]}>
+            <Marker position={[41.87, -87.649]}>
               <Popup>Find me at a local coffee shop to talk programming!</Popup>
             </Marker>
           </MapContainer>

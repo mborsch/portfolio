@@ -1,15 +1,18 @@
 
 .logo-container {
     z-index: 0;
-    width: 450px;
-    height: 609px;
+    width: 600px;
+    height: 909px;
     position: absolute;
-    top: 0;
-    right: 15%;
-    bottom: 0;
+    top: 50%;
+    right: 10%;
+    bottom: 5%;
     left: auto;
     margin: auto;
     opacity: 0;
+    
+    
+   
     
 
     svg {
@@ -31,6 +34,7 @@
         opacity: 0;
        // transform: rotateZ(30deg);
         z-index: 1;
+        animation: fadeInRight 1s linear both;
     }
     
 }
