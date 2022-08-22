@@ -18,6 +18,7 @@
         margin: 0;
         font-family: 'coolvetica';
         font-weight: 400;
+&:hover{
 
         &::before {
             content: '<h1>';
@@ -26,6 +27,7 @@
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
+            animation: fadeIn 1s 0.4s backwards;
             left: 15px;
             opacity: 0.6;
         }
@@ -38,9 +40,10 @@
             position: absolute;
             margin-top: 18px;
             margin-left: 20px;
-            animation: fadeIn 1s 1.7s backwards;
+            animation: fadeIn 1s 0.7s backwards;
             opacity: 0.6;
         }
+                }
         img{
             width: 45px;
             margin-left: 20px;
@@ -82,15 +85,24 @@
         }
     }
 
+    .img-wrap{
+        padding-top: 20px;
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+    }
+
     .card1 {
-        background-color: #05078d56;
+        background-color: #ffffff00;
         position: absolute;
         left: 50%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
         transition: 0.3s;
-        top: 15%;
-        width: 230px;
-        height: 35%;
+        top: 0%;
+        width: 300px;
+        height: 45%;
         border-radius: 20%;
         border: 1px solid rgba(2, 2, 2, 0.3);
         padding: 6px 6px;
@@ -99,8 +111,9 @@
 
         img {
             width: 100%;
-            height: 50%;
+            height: 100%;
             border-radius: 25%;
+            
 
 
             
@@ -110,9 +123,9 @@
             color: #fff;
             text-align: center;
            // border: 1px solid #5ce1e6;
-           font-weight: 700;
-            font-size: 12px;
-            margin: 5px 0 2px;
+           font-weight: 800;
+            font-size: 16px;
+            margin: 6px;
         }
 
         p {
@@ -126,7 +139,7 @@
         .buttons {
             justify-content: space-between;
             align-items: center;
-            margin-top: 5px;
+            margin-top: 0;
 
             .btn-git{
                 float: left;
@@ -141,33 +154,36 @@
         }
     }
 
-    .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    .card1:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+        background-color: #0104a38e;
     }
 
     .card-body{
-        height: 50%;
-        justify-content: space-around;
+        height: 56%;
+       
     }
 
         .card2 {
-                background-color: #05078d56;
+                background-color: #ffffff00;
                 position: absolute;
                 left: 75%;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
                 transition: 0.3s;
-                top: 15%;
-                width: 230px;
-                height: 35%;
+                top: 0%;
+                width: 300px;
+                height: 45%;
                 border-radius: 20%;
                 border: 1px solid rgba(2, 2, 2, 0.3);
                 padding: 6px 6px;
                 animation: fadeInRight 1s 2.3s backwards;
+              
         
                 img {
                     width: 100%;
-                    height: 50%;
+                    height: 100%;
                     border-radius: 25%;
+                   
         
         
         
@@ -177,8 +193,8 @@
                     color: #fff;
                     text-align: center;
                     // border: 1px solid #5ce1e6;
-                    font-weight: 700;
-                    font-size: 12px;
+                    font-weight: 800;
+                    font-size: 16px;
                     margin: 5px 0 2px;
                 }
         
@@ -194,7 +210,7 @@
                 .buttons {
                     justify-content: space-between;
                     align-items: center;
-                    margin-top: 5px;
+                    margin-top: 40px;
         
                     .btn-git {
                         float: left;
@@ -210,24 +226,25 @@
                 }
             }
         
-            .card:hover {
-                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-            }
-        
+        .card2:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+            background-color: #0104a38e;
+        }
             .card-body {
                 height: 50%;
+           
                 justify-content: space-around;
             }
 
         .card3 {
-            background-color: #05078d56;
+            background-color: #ffffff00;
             position: absolute;
             left: 50%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
             transition: 0.3s;
-            top: 60%;
-            width: 230px;
-            height: 35%;
+            top: 53%;
+            width: 300px;
+            height: 45%;
             border-radius: 20%;
             border: 1px solid rgba(2, 2, 2, 0.3);
             padding: 6px 6px;
@@ -235,8 +252,8 @@
     
             img {
                 width: 100%;
-                height: 50%;
-                border-radius: 25%;
+                height: 100%;
+               border-radius: 15%;
     
     
     
@@ -246,8 +263,8 @@
                 color: #fff;
                 text-align: center;
                 // border: 1px solid #5ce1e6;
-                font-weight: 700;
-                font-size: 12px;
+                font-weight: 800;
+                font-size: 16px;
                 margin: 5px 0 2px;
             }
     
@@ -279,9 +296,10 @@
             }
         }
     
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
+                .card3:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+                    background-color: #0104a38e;
+                }
     
         .card-body {
             height: 50%;
@@ -289,14 +307,14 @@
         }
     
         .card4 {
-            background-color: #05078d56;
+            background-color: #ffffff00;
             position: absolute;
             left: 75%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
             transition: 0.3s;
-            top: 60%;
-            width: 230px;
-            height: 35%;
+            top: 53%;
+            width: 300px;
+            height: 45%;
             border-radius: 20%;
             border: 1px solid rgba(2, 2, 2, 0.3);
             padding: 6px 6px;
@@ -304,8 +322,8 @@
     
             img {
                 width: 100%;
-                height: 50%;
-                border-radius: 25%;
+                height: 100%;
+                
     
     
     
@@ -315,8 +333,8 @@
                 color: #fff;
                 text-align: center;
                 // border: 1px solid #5ce1e6;
-                font-weight: 700;
-                font-size: 12px;
+                font-weight: 800;
+                font-size: 16px;
                 margin: 5px 0 2px;
             }
     
@@ -395,9 +413,10 @@
                      }
                  }
     
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
+                .card4:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+                    background-color: #0104a38e;
+                }
     
         .card-body {
             height: 50%;
@@ -455,5 +474,12 @@
         animation-delay: 1.4s;
        
     }
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        display: flex;
     }
 }
